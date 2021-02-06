@@ -15,17 +15,24 @@
 </head>
 
 <body>
-
-  <!-- Image tag no necesita un tag de cierre -->
-  <!-- img(HTML element) src="angela.png"(HTML atribute) -->
-  <img src="Images/Fotografia.jpg" alt="Foto de Lorena" height=300>
-
-  <h1>Lorena Bucurú Rodríguez</h1>
-  <p><em>Student of <strong>Physics</strong></em></p>
-  <!--This is the paragraph tag-->
-  <p>Soy estudiante de ultimo año de física y estoy aprendiendo a desarrollar
-    paginas web, me gustan los gatos y la física de partículas, aunque tengo
-    mucho miedo de geant4</p>
+  <table cellspacing="20">
+    <!-- Cellspacing espacio entre columnas -->
+    <tr>
+      <td>
+        <!-- Image tag no necesita un tag de cierre -->
+        <!-- img(HTML element) src="angela.png"(HTML atribute) -->
+        <img src="Images/Fotografia.jpg" alt="Foto de Lorena" height=300>
+      </td>
+      <td>
+        <h1>Lorena Bucurú Rodríguez</h1>
+        <p><em>Student of <strong>Physics</strong></em></p>
+        <!--This is the paragraph tag-->
+        <p>Soy estudiante de ultimo año de física y estoy aprendiendo a desarrollar
+          paginas web, me gustan los gatos y la física de partículas, aunque tengo
+          mucho miedo de geant4</p>
+      </td>
+    </tr>
+  </table>
   <hr>
 
   <!-- unordered list -->
@@ -35,6 +42,84 @@
     <li>tutora de <a href="https://www.instagram.com/geaunalbogota/">gea</a></li>
     <li>física de partículas</li>
   </ul>
+
+  <h3>Work Experience</h3>
+
+  <!-- tr significa table raw o fila y columna td que es table data element -->
+  <table>
+    <!-- Table head -->
+    <thead>
+      <!-- th table head element -->
+      <th>Dates</th>
+      <th>Work</th>
+    </thead>
+    <!-- table body -->
+    <tbody>
+      <tr>
+        <td>2018 - 2019</td>
+        <td>gea tutor in physics</td>
+      </tr>
+      <tr>
+        <td>2020</td>
+        <td>researcher at the cern</td>
+      </tr>
+    </tbody>
+    <!-- table footer -->
+    <tfoot>
+      <td>holi</td>
+    </tfoot>
+  </table>
+
+  <h3>Skills</h3>
+  <!-- Haciendo una tabla de tablas -->
+  <table>
+    <!-- Esta es la tabla donde va a ir todo -->
+    <tbody>
+      <!-- Todo estará en el cuerpo de la tabla -->
+      <tr>
+        <!-- Creamos una sola fila que va a tener tablas con columnas -->
+        <td>
+          <!-- en la columna 0 va a estar la primera tabla anidada -->
+          <table>
+            <tr>
+              <!-- Creamos la primera fila de la tabla anid. con dos column -->
+              <td>C++</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <!-- Creamos la segunda fila de la tab anid. con dos column -->
+              <td>Python</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+            <!--Cerramos la tabla anidada -->
+          </table>
+        </td>
+        <!-- creamos la otra columna que tiene la segunda tabla anidada -->
+        <td>
+          <!-- Segunda tabla anidada -->
+          <table>
+            <tr>
+              <!-- primera fila con dos columnas -->
+              <td>Latex</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <!-- Segunda fila con dos columnas -->
+              <td>inkscape</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+          </table>
+          <!-- fin de la tabla anidada -->
+        </td>
+        <!-- fin de la otra columna -->
+      </tr>
+      <!-- fin de la única fila de la tabla grande -->
+    </tbody>
+    <!-- fin del cuerpo de l atabla grande -->
+  </table>
+  <!-- fin de l tabla -->
+
+  <hr>
 
   <a href="menu/hobbies.html">My hobbies</a>
   <br>
