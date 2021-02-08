@@ -1,0 +1,17 @@
+body {
+  background-color: #ecfafb;
+}
+
+hr {
+  /*background-color: #ecfafb;*/
+  border-style: none;
+  border-top-style: dotted;
+  height: 0px;
+  width: 5%; /* puede se en pixeles o en porcentaje del tamaño de la pag*/
+  border-color: #81cbc855;
+  border-width: 5px;
+}
+
+h1, h2, h3 {
+  color: #4aa6b5;
+}
