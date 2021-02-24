@@ -1,0 +1,38 @@
+/******************* Tag selectors *******************/
+
+h1 {
+  color: red;
+  font-size: 100px;
+}
+
+
+img:hover {
+  background-color : gold;
+}
+
+a:link { color: blue; }          /* Unvisited links */
+a:visited { color: purple; }     /* Visited links */
+a:hover { background: yellow; }  /* Hovered links */
+a:active { color: red; }         /* Active links */
+
+p:active { background: #eee; }   /* Active paragraphs */
+
+/******************* Class selectors *******************/
+
+.heart {
+  background-color : green;
+}
+
+.bacon {
+  background-color : yellow;
+}
+
+.circle {
+  border-radius : 100%;
+}
+
+/******************* ID selectors *******************/
+
+#heading {
+  color : blue;
+}
