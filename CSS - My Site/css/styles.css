@@ -20,17 +20,22 @@ h2 {
 
 h3 {
   font-family: 'Aleo', serif;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
+
 hr {
-  /*background-color: #ecfafb;*/
+  background-color: white;
   border-style: none;
   border-top-style: dotted;
   height: 0;
   width: 3%; /* puede se en pixeles o en porcentaje del tamaño de la pag*/
-  border-color: #75cfb8;
+  border-color: #40b598;
   border-width: 5px;
+  margin: 50px auto;
 }
+
 
 /* p {
   padding: 0 20px 0 20px;
@@ -88,6 +93,14 @@ div.top-container {
   line-height: 1.5;
 }
 
+.cat {
+  margin-top: 100px;
+}
+
+.container-fluid {
+  padding: 1% 5% 0 5%;
+}
+
 .final-p {
   margin-bottom: 0;
   margin-top: 20px;
@@ -108,15 +121,30 @@ div.top-container {
   color: #778745;
 }
 
+.navbar {
+  padding: 0 0 2.5em 0;
+}
+
+
+.nav-item {
+  padding: 0 12px;
+  color: #606c38;
+  font-family: "Merriweather";
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #606c38;
+    font-size: 1.2rem;
+}
+
 .profile {
   width: 50%;
   margin: 50px auto;
 }
 
 .top-container {
-  background-color: #f0e5d8;
   position: relative;
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
 /* .middle-container {
@@ -129,18 +157,14 @@ div.top-container {
 
 .bottom-cloud {
   position: absolute;
-  bottom: 350px;
-  left: 300px;
+  top: 245px;
+  left: auto;
 }
 
 .top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
-}
-
-.cat {
-  margin-top: 100px;
+  position: relative;
+  left: 180px;
+  top: auto;
 }
 
 .skill-row {
@@ -152,17 +176,23 @@ div.top-container {
 }
 
 .skill1 {
-  float: left;
+  /* float: left; */
   height: 200px;
-  margin-right: 30px;
+  /* margin-right: 30px; */
+  text-align: center;
 }
 
 .skill2 {
-  float: right;
+  /*float: right;*/
   height: 200px;
-  margin-left: 30px;
+  /*margin-left: 30px;*/
+  text-align: center;
 }
 
 .subtitle {
   font-weight: normal;
+}
+
+#title {
+  background-color: #F0E5D8;
 }
