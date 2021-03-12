@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat, sans-serif';
+  font-family: 'Montserrat', 'sans-serif';
   /* font-size: 1.2rem; */
   line-height: 1.5;
   font-weight: 100;
@@ -7,18 +7,69 @@ body {
 }
 
 h1 {
-  font-family: 'Montserrat, sans-serif';
+  font-family: 'Montserrat', 'sans-serif';
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
 }
 
+h2 {
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Montserrat';
+}
+
+h3{
+  color: #120402;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+
+.card {
+    margin: 50px 0.5px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
+}
+
+.cta-header {
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .download-button {
   margin: 5% 3% 5% 0;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+  /* font-size: 3rem; */
+  margin-bottom: 1rem;
+  /* margin-top: 3rem; */
+}
+
+.icon:hover {
+  color: #ff4c68;
 }
 
 .navbar {
@@ -37,15 +88,90 @@ h1 {
 
 .nav-link {
   font-size: 1.2rem;
-  font-family: "Montserrat-Light";
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.pricing-column {
+    /* padding: 3% 2%; */
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    color: black;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
 }
 
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 45px 25px 50px;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  /* z-index: 1; */
+}
+
+#footer {
+    padding: 7% 15%;
+    /* background-color: white; */
+    text-align: center;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#pricing {
+    margin: 50px;
+    text-align: center;
+}
+
+#testimonials {
+    padding: 7% 7%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    /* z-index: 2;
+    position: absolute; */
 }
 
 #title {
   background-color: #ff4c68;
   color: white;
+  /* padding-bottom: 50px; */
+}
+
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
 }
