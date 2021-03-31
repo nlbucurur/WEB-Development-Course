@@ -3,34 +3,26 @@ body {
   /* font-size: 1.2rem; */
   line-height: 1.5;
   font-weight: 100;
-  color: white;
+  /* color: white; */
+  text-align: center;
 }
 
-h1 {
+h1, h3, h4, h5, h6 {
   font-family: 'Montserrat', 'sans-serif';
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: 900;
-}
-
-h2 {
-    font-weight: 600;
-    font-size: 3rem;
-    line-height: 1.5;
-    font-family: 'Montserrat';
-}
-
-h3{
-  color: #120402;
-  font-family: 'Montserrat';
-  font-weight: 600;
-  font-size: 1.5rem;
 }
 
 p {
   color: #8f8f8f;
   font-family: 'Montserrat';
   font-weight: 500;
+}
+
+.big-heading {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    text-align: left;
 }
 
 .card {
@@ -48,9 +40,11 @@ p {
 }
 
 .cta-header {
+    font-family: 'Montserrat', 'sans-serif';
     color: white;
     font-size: 3rem;
     line-height: 1.5;
+    font-weight: 900;
 }
 
 .download-button {
@@ -59,6 +53,12 @@ p {
 
 .feature-box {
   text-align: center;
+}
+
+.feature-title {
+    color: #120402;
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
 .icon {
@@ -97,9 +97,21 @@ p {
     margin: 20px 20px 50px;
 }
 
+.price-text {
+    /* font-weight: 600; */
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 .pricing-column {
     /* padding: 3% 2%; */
     text-align: center;
+}
+
+.section-heading {
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .social-icon {
@@ -111,6 +123,12 @@ p {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
+}
+
+.testimonial-text {
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .title-image {
@@ -134,7 +152,7 @@ p {
 }
 
 #footer {
-    padding: 7% 15%;
+    /* padding: 7% 15%; */
     /* background-color: white; */
     text-align: center;
 }
